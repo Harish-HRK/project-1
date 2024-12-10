@@ -40,6 +40,10 @@ nav ul li a:hover {
   color: #ff0000;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /*hero*/
 
 .hero {
