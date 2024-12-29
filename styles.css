@@ -397,4 +397,13 @@ body {
 .footer-text {
   font-size: 14px;
 }
+/* Styles for screens less than 768px wide */
+@media only screen and (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+  .menu-items {
+    flex-wrap: wrap; /* Wrap menu items on smaller screens */
+  }
+}
 
